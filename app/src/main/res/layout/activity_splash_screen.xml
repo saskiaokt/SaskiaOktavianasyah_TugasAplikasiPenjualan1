@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral70"
+    android:backgroundTint="#EFBDB5"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="339dp"
+        android:layout_height="404dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/bakeryimg_foreground" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="-115dp"
+        android:fontFamily=""
+        android:lineSpacingExtra="16sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#5E5C5C"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-31dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Saskia's Bakery"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</RelativeLayout>
